@@ -64,7 +64,7 @@ def zip_extract_all(src_zip_file: ZipFile, target_path: str) -> None:
 
 st.header('起诉书 & 委托书 - 自动处理程序')
 
-with open('readme.md', 'r') as f:
+with open('README.md', 'r') as f:
     readme = f.read()
 
 if st.toggle('显示说明文档'):
